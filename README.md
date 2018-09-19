@@ -1,5 +1,9 @@
 # Braintree Web Drop-in
 
+The following is the final file: `dist/web/dropin/dev/js/dropin.js`.
+
+The event that is now fully tracked is `paymentMethodRequestable`
+
 A pre-made payments UI for accepting cards and alternative payments in the browser built using version 3 of the [Braintree JS client SDK](https://github.com/braintree/braintree-web).
 
 If you have any feedback or questions, create an [issue](https://github.com/braintree/braintree-web-drop-in/issues) or [contact Braintree support](https://developers.braintreepayments.com/forms/contact).
