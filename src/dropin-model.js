@@ -141,6 +141,9 @@ DropinModel.prototype._shouldEmitRequestableEvent = function (options) {
   var requestableStateHasNotChanged = this.isPaymentMethodRequestable() === options.isRequestable;
   var typeHasNotChanged = options.type === this._paymentMethodRequestableType;
 
+  //always make typeHasNotChanged to false to ensure all changes are emitted
+  var typeHasNotChanged = false;
+
   if (requestableStateHasNotChanged && (!options.isRequestable || typeHasNotChanged)) {
     return false;
   }
